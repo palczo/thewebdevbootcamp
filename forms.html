@@ -11,11 +11,23 @@
 <body>
   <!-- action - where the form sends data to -->
   <!-- method - what HTTP method (get/post) -->
+  <h1>Login</h1>
+  <!-- <form action="http://wikipedia.org">
+    <label>Username:
+      <input name="username" type="text" placeholder="username">
+    </label>
+    <label>Password: <input name="password" type="password" placeholder="password">
+    </label>
+    <input type="submit" name="" id="">
+  </form> -->
   <form action="http://wikipedia.org">
-    <label>Login</label>
-    <input name="username" type="text" placeholder="username" required>
-    <input name="password" type="password" placeholder="password" required>
-    <input type="submit">
+    <label for="email">Email:
+      <input id="email" name="email" type="email" placeholder="email" required>
+    </label>
+    <label for="password">Password:
+      <input name="password" type="password" placeholder="password" required>
+    </label>
+    <input id="password" type="submit">
   </form>
 </body>
 
